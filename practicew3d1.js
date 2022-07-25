@@ -58,3 +58,46 @@ function triArea(base, height) {
 }
 
 console.log(triArea(3,2))
+
+/* 
+You are counting points for a basketball game, given the amount of 2-pointers scored and 3-pointers scored, find the final points for the team and return that value.
+
+Examples
+points(1, 1) ➞ 5
+
+points(7, 5) ➞ 29
+
+points(38, 8) ➞ 100
+*/
+
+function points(twoPointers, threePointers) {
+	return (twoPointers*2) + (threePointers*3)
+}
+
+console.log(points(7,5))
+
+/* 
+Mubashir wants to swap two given numbers!
+
+It is not returning the right values. Can you help him fix it?
+
+a = 100
+b = 200
+a, b = swap(a, b)
+print(a, b) // Should print out "200, 100", but the function prints out "100, 100"
+Examples
+swap(100, 200) ➞ [200, 100]
+
+swap(44, 33) ➞ [33, 44]
+
+swap(21, 12) ➞ [12, 21]
+*/
+
+function swap(a, b) {
+	return [b, a]
+}
+
+console.log(swap(6,2))
+
+// jshero.net for some more help  
+
