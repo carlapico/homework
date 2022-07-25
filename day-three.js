@@ -43,3 +43,18 @@ function firstElement (arr) {
 }
 let arrayOfFaveStuff =['cats','coffee','Disney']
 firstElement (arrayOfFaveStuff)
+
+
+// example of a function as described by damian
+
+function xx(AAA,BBB){
+    let sum=0
+    sum = AAA + BBB //now this overrid the above line 
+    return sum
+}
+    const result = xx(1,10)
+    console.log(result) 
+    //or I can do 
+    console.log(xx(1,10))
+
+    
